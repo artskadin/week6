@@ -5,7 +5,7 @@ export default function appSrc(express, bodyParser, createReadStream, crypto, ht
         'Access-Control-Allow-Methods': 'GET,POST,PUT,PATCH,OPTIONS,DELETE»',
         'Content-Type': 'text/plain; charset=utf-8'
     };
-    const login = "itmo182954";
+    const login = "artskadin";
     app
         .use(bodyParser.urlencoded({ extended: true }))
         .all('/insert/', (req, res) => {
